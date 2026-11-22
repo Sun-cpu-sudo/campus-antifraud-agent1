@@ -1,0 +1,10 @@
+[project]
+name = "campus-antifraud-agent"
+version = "0.1.0"
+description = "校园反诈助手：可疑短信识别与处置建议 Agent（机器学习课程期末项目）"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

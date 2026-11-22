@@ -1,0 +1,22 @@
+{
+  "threshold": 0.37,
+  "threshold_high": 0.84,
+  "threshold_low": 0.44,
+  "fusion_alpha": 0.8,
+  "binary_threshold": 0.37,
+  "model": "LogisticRegression",
+  "categories": [
+    "无风险",
+    "冒充电商物流客服类",
+    "虚假网络投资理财类",
+    "虚假信用服务类",
+    "虚假购物、服务类",
+    "冒充公检法及政府机关类",
+    "冒充领导、熟人类",
+    "网络婚恋、交友类",
+    "冒充军警购物类诈骗",
+    "网黑案件"
+  ],
+  "no_risk_label": "无风险",
+  "random_state": 42
+}
